@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: whitesmoke;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+}
+
+.logo{
+    color: rgb(20, 125, 237);
+    margin-left: 60px;
+}
+
+.menu-links ol {
+    align-items: center;
+    margin-left: 350px;
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.extra-links ol {
+    margin-left: 70px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+ol li {
+    display: inline;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #716d6d;
+    font-size: 17px;
+    transition: color 0.5s ease;
+}
+
+.menu-links a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(20, 125, 237);
+    padding-bottom: 20px;
+}
+
+.extra-links button {
+    width: 130px;
+    display: block;
+    font-family: sans-serif;
+    padding: 5px 5px;
+    background: white;
+    color: rgb(20, 125, 237);
+    font-size: 16px;
+    border: 2px solid rgb(195, 191, 191);
+    border-radius: 3.5px;
+    font-weight: 700;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 1.8s ease;
+}
+
+.extra-links button a {
+    text-decoration: none;
+    color: rgb(20, 125, 237);
+    display: block;
+    font-size: 16px;
+}
+
+.extra-links button:hover {
+    background: rgb(20, 125, 237);
+}
+
+.extra-links button:hover a {
+    color: white;
+}
+
+section{
+    margin: 100px;
+    text-align: center;
+}
+
+section > h2{
+    font-size: 70px;;
+    margin-bottom: 10px;
+}
+section > p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+section > button{
+    width: 170px;
+    padding: 10px 5px;
+    background: rgb(20, 125, 237);
+    color: white;
+    font-size: 22px;
+    border: 1px solid rgb(195, 191, 191);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+section > button a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+section > button:hover{
+    background: white;
+}
+section > button:hover a{
+    color: rgb(20, 125, 237);
+}
+
+article{
+    width: 33%;
+    font-size: 25px;
+}
+
+footer{
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+}
